@@ -39,4 +39,4 @@ def drop_record(cid):
     query=f'delete from customer where id={cid}'
     cursor.execute(query)
     con.commit()
-    print('record removed')
+    print('record removed')   
